@@ -47,7 +47,7 @@ This repository contains the source code for my personal portfolio website. It s
 
 ### Alternate Way: Access My Personal Portfolio
 
-1. Visit the live application by clicking on the following link: [Netflix Clone](https://arshgujral.github.io/Personal-Portfolio/)
+1. Visit the live application by clicking on the following link: [Personal Portfolio](https://arshgujral.github.io/Personal-Portfolio/)
 
 # Screenshots
 
