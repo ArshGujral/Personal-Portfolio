@@ -1,4 +1,4 @@
-# Portfolio Website
+# Personal Portfolio
 
 ![Portfolio Preview](link_to_portfolio_screenshot_or_image)
 
