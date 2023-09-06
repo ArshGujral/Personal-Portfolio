@@ -14,7 +14,7 @@
 :root {
   --main-color: #40916C;
   --bg-color: #fff;
-  --text-color: #0f0c27;
+  --text-color: #000000;
   --hover: hsl(155, 43%, 18%);
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
@@ -27,7 +27,7 @@ section {
 
 body.active {
   --text-color: #fff;
-  --bg-color: #0f0c27;
+  --bg-color: #0F0E0E;
 }
 
 body {
@@ -82,7 +82,10 @@ header.shadow {
 .logo span {
   font-size: 1.61rem;
   font-weight: 600;
-  color: hsl(0, 69%, 50%);
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  -webkit-background-clip: text;
+  color: transparent;
+
 }
 
 .navbar {
@@ -163,8 +166,9 @@ header.shadow {
 }
 
 .social a:hover {
-  color: var(--hover);
-  --hover: hsl(0, 69%, 50%);
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .btn {
@@ -191,7 +195,7 @@ header.shadow {
 }
 
 .about-img img {
-  width: 80%;
+  width: 60%;
   border-radius: 0.5rem;
 }
 
@@ -358,7 +362,7 @@ textarea {
   width: 100%;
   border: none;
   outline: none;
-  background: hsla(260, 100%, 44%, 0.1);
+  background: rgba(216, 243, 220, 0.61);
   margin-bottom: 1rem;
   color: var(--text-color);
 }
@@ -374,14 +378,20 @@ form textarea {
 }
 
 .contact-button {
+  font-size: var(--small-font);
   width: 160px;
   cursor: pointer;
-  background: #F77F00;
-  color: #fff;
+  background: #ffffff;
+  color: var(--main-color);
   justify-content: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-left: 35%;
+  margin-left: 37%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 5px 5px gray 
 }
 
 .contact-button:hover {
@@ -393,25 +403,34 @@ form textarea {
   display: grid;
   place-items: center;
   padding: 20px;
-  color: #000;
+  color: #000000;
+  
 }
 
 .footer h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1.6rem;
-  color: var(--text-color)
+  text-decoration: underline;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #44a08d, #093637);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .footer-social a i {
-  color: rgb(10, 26, 208);
+  color: rgb(0, 0, 0);
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
   line-height: 40px;
-  background-color: #fff;
+  background-color: #ffffff5b;
   border-radius: 50%;
   width: 40px;
   height: 40px;
+
+}.footer-social :hover {
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .copyright {
@@ -564,4 +583,3 @@ form textarea {
   }
 }
 
-/* Button css */
