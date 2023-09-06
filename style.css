@@ -12,10 +12,10 @@
 }
 
 :root {
-  --main-color: #033a80;
+  --main-color: #40916C;
   --bg-color: #fff;
   --text-color: #0f0c27;
-  --hover: hsl(260, 100%, 51%);
+  --hover: hsl(155, 43%, 18%);
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
@@ -50,7 +50,7 @@ body {
 
 .heading span {
   font-size: var(--p-font);
-  color: rgb(2, 166, 70);
+  color: rgb(53, 143, 128);
 }
 
 header {
@@ -82,7 +82,7 @@ header.shadow {
 .logo span {
   font-size: 1.61rem;
   font-weight: 600;
-  color: crimson;
+  color: hsl(0, 69%, 50%);
 }
 
 .navbar {
@@ -128,6 +128,7 @@ header.shadow {
 
 .home-img img {
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .home-text span {
@@ -163,6 +164,7 @@ header.shadow {
 
 .social a:hover {
   color: var(--hover);
+  --hover: hsl(0, 69%, 50%);
 }
 
 .btn {
@@ -176,6 +178,9 @@ header.shadow {
 .btn:hover {
   background: var(--hover);
 }
+
+
+
 
 
 .about-container {
@@ -227,6 +232,7 @@ header.shadow {
   width: 80%;
   padding-left: 4rem;
   object-position: center;
+  border-radius: 0.5rem;
 }
 
 .bars-box {
@@ -250,7 +256,7 @@ span {
   left: 0;
   width: 100%;
   height: 0.5rem;
-  background: hsla(260, 100%, 44%, 0.4);
+  background: hsl(153, 41%, 62%, 0.4);
   border-radius: 0.5rem;
 }
 
@@ -300,7 +306,7 @@ span {
 }
 
 .projects-box:hover {
-  background-color: #02225a;
+  background-color: #036666;
 }
 
 .projects-box h3 {
@@ -320,7 +326,7 @@ span {
 }
 
 .projects-box:hover .bx {
-  color: #22cf91;
+  color: #80ed99;
 }
 
 .projects-box a {
@@ -330,7 +336,7 @@ span {
 }
 
 .projects-box:hover a {
-  color: #8b8a8f;
+  color: #d1cfcf;
 }
 
 .contact-form {
@@ -370,7 +376,7 @@ form textarea {
 .contact-button {
   width: 160px;
   cursor: pointer;
-  background: #2768d9;
+  background: #F77F00;
   color: #fff;
   justify-content: center;
   text-transform: uppercase;
@@ -379,6 +385,7 @@ form textarea {
 }
 
 .contact-button:hover {
+  transition: 5ms;
   background: var(--hover);
 }
 
@@ -556,3 +563,5 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+/* Button css */
