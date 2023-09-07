@@ -41,7 +41,7 @@ This repository contains the source code for my personal portfolio website. It s
 
 ## Getting Started
 
-1. Clone the repository to your local machine using: git clone https://arshgujral.github.io/Personal-Portfolio.git
+1. Clone the repository to your local machine using: git clone https://github.com/ArshGujral/Personal-Portfolio
 
 2. Navigate to the project directory and open `index.html` in your preferred web browser.
 
@@ -51,13 +51,17 @@ This repository contains the source code for my personal portfolio website. It s
 
 # Screenshots
 
-![Screenshot 1]("")
-![Screenshot 2]("")
-![Screenshot 3]("")
-![Screenshot 4]("")
-![Screenshot 5]("")
-![Screenshot 6]("")
-![Screenshot 7]("")
+![Screenshot 1]("https://i.postimg.cc/jjPWyWhj/Screenshot1.png")
+![Screenshot 2]("https://i.postimg.cc/4N2hGRdX/Screenshot2.png")
+![Screenshot 3]("https://i.postimg.cc/mg0zc3Cq/Screenshot3.png")
+![Screenshot 4]("https://i.postimg.cc/G2jHSZVw/Screenshot4.png")
+![Screenshot 5]("https://i.postimg.cc/mD4Pjbdy/Screenshot5.png")
+![Screenshot 6]("https://i.postimg.cc/d1cyfR0d/Screenshot6.png")
+![Screenshot 7]("https://i.postimg.cc/ZYcdfdzB/Screenshot7.png")
+![Screenshot 8]("https://i.postimg.cc/J4zBSzRT/Screenshot8.png")
+![Screenshot 9]("https://i.postimg.cc/kgVRXY6K/Screenshot9.png")
+![Screenshot 10]("https://i.postimg.cc/8c1rp1Mz/Screenshot10.png")
+![Screenshot 11]("https://i.postimg.cc/MHdfXhmb/Screenshot11.png")
 
 ## Contributions
 Contributions are welcome! If you find any issues or want to enhance the clone, feel free to create a pull request.
